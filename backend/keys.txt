@@ -1,0 +1,2 @@
+Gemini = AIzaSyD25qQn-yadJwYdl6fT6N3m1_K0SCqFJL4
+Pinecone = pcsk_4G9WcN_5tFSi47wpW2TNr6ANLb4wKbXtpmyribToTfaG8fZD9SdnqHvR8eWWXgNend1bSW
