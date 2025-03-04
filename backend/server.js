@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(cors());
 const genAi = new GoogleGenerativeAI(process.env.gemini_key);
 const pinecone = new Pinecone({
-    apiKey : "pcsk_4G9WcN_5tFSi47wpW2TNr6ANLb4wKbXtpmyribToTfaG8fZD9SdnqHvR8eWWXgNend1bSW"
+    apiKey : process.env.pincecone_key
 });
 const index = pinecone.index("job-details");
 async function summarize(text) {
